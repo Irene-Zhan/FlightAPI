@@ -1,0 +1,236 @@
+html{
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 20px;
+    background: url(icon-3418161.jpg); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 90vh; 
+    width:100%;
+}
+#account{
+    margin-left: 0px;
+    padding-left: 10px;
+}
+.autocomplete {
+    /*the container must be positioned relative:*/
+    position: relative;
+    display: inline-block;
+  }
+.autocomplete-items {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    /*position the autocomplete items to be the same width as the container:*/
+    top: 100%;
+    left: 0;
+    right: 0;
+  }
+body{
+    font-size: 20px;
+    overflow: scroll;
+}
+.navbar{
+    text-align: left;
+    margin-left: 80px;
+    padding: 1%;
+    
+}
+.navbar-item{
+    display: inline-block;
+}
+
+#welcome{
+    margin-top: -1.5%;
+}
+input{
+    border-radius: 10px;
+}
+button{
+    display:inline-block;
+    background: none;
+    border: none;
+    margin: 2.5%;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.airline{
+    font-weight: bold;
+}
+.name{
+    font-weight: bolder;
+    font-size: 22px;
+}
+.for{
+    font-weight: bolder;
+    font-size: 24px;
+    margin-left: 40%;
+}
+.result{
+    width: 80%;
+    text-align: left;
+    padding-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: thin solid white;
+    background-color: rgba(252, 252, 252, 0.3);
+    font-size: 20px;
+
+}
+.cabin>label{
+    margin: 1.5%;
+
+
+}
+.location>label{
+    margin: 1.5%;
+    
+
+}
+.location{
+    margin-top: 2%;
+    margin-left: 5.55%;
+}
+#user{
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+.for{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: auto;
+}
+.ticket{
+    width: 80%;
+    background-attachment: fixed;
+    text-align: left;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 128, 255, 0.7);
+    margin-bottom: 20px;
+}
+#user_login{
+    margin-top: 5%;
+    margin-bottom: 2%;
+
+}
+h1{
+    font-size: 26px;
+    font-family:Georgia, serif; 
+}
+h2:first-child{
+    margin-top: 30px;
+}
+h2{
+    font-size: 20px;
+    font-weight: bolder;
+}
+#flight_booked{
+    margin-top:3%;
+    font-size: 20px;
+}
+.book > span{
+    display: inline-block;
+    margin: 20px;
+}
+.book > div{
+    display: inline-block;
+}
+#booking{
+    text-align: center;
+    display: block;
+    margin-top: 0px;
+}
+ul.ui-autocomplete {
+    padding: 0;
+    list-style-type: none;
+    background-color: white;
+    opacity: 0.8;
+    width: 8%;
+    height: 100px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-size: 16px;
+    position: absolute;
+
+}
+
+#search{
+    margin: none;
+    background-color: #FDB610;
+    border-radius: 10px;
+
+}
+
+.ui-helper-hidden-accessible { 
+    display:none; 
+}
+.result:hover{
+    background-color: yellow;
+}
+#location{
+    margin-right: auto;
+    margin-left: auto;
+}
+span{
+    display: inline;
+    margin: 2%;
+    
+}
+
+#traveler_span{
+    display: inline-block;
+    margin-bottom: 0px;
+}
+#location > input{
+    margin-right: 3%;
+    margin-top: 5%;
+}
+#login_btn{
+    margin-left:auto;
+    margin-right: auto;
+}
+
+#create_new{
+    margin-left:auto;
+    margin-right: auto;
+
+ }
+h1{
+    margin-top: 5%;
+   font-size: 22px;
+}
+.pass{
+    margin:2%;
+
+
+}
+.container{
+    background-color: rgba(21, 158, 212, 0.8);
+    width: 28%;
+    height:150%;
+    padding: 3%;
+    margin-left:32%;
+}
+p{
+    font-size:16px;
+}
+#login_div{
+    padding:5%;
+    size: 20px;
+}
+#login_div > input{
+    margin: 20px;
+}
+
+
+
